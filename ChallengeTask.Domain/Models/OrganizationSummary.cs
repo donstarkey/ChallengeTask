@@ -6,7 +6,7 @@
         private List<OrgUser> users = new List<OrgUser>();
         private int totalCount;
         private int blacklistTotal;
-        private string name;
+        private string name = string.Empty;
         private int id;
 
         //public OrganizationSummary(int id, DateTimeOffset createdat, string name)

@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddSingleton<IRepository<Organization>, ApiOrganizationRepository<Organization>>();
+//builder.Services.AddSingleton<IRepository<Organization>, JsonTestOrganizationRepository<Organization>>();//Using Json files instead of API
 
 builder.Services.AddControllers();
 
